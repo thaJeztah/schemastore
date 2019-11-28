@@ -383,6 +383,45 @@
       }
     },
     {
+      "name": "Docker Compose File V1",
+      "description": "Docker Compose File / Fig V1 schema",
+      "url": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v1.json",
+      "fileMatch": [ "docker-compose.yml", "docker-compose.yaml", "fig.yml", "fig.yaml" ],
+      "versions": {
+        "1.0": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v1.json"
+      }
+    },
+    {
+      "name": "Docker Compose File V2",
+      "description": "Docker Compose File V2 schema",
+      "url": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v2.4.json",
+      "fileMatch": [ "docker-compose.yml", "docker-compose.yaml" ],
+      "versions": {
+        "2.0": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v2.0.json",
+        "2.1": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v2.1.json",
+        "2.2": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v2.2.json",
+        "2.3": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v2.3.json",
+        "2.4": "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v2.4.json"
+      }
+    },
+    {
+      "name": "Docker Compose File V3",
+      "description": "Docker Compose File V3 schema",
+      "url": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.8.json",
+      "fileMatch": [ "docker-compose.yml", "docker-compose.yaml" ],
+      "versions": {
+        "3.0": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.0.json",
+        "3.1": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.1.json",
+        "3.2": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.2.json",
+        "3.3": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.3.json",
+        "3.4": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.4.json",
+        "3.5": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.5.json",
+        "3.6": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.6.json",
+        "3.7": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.7.json",
+        "3.8": "https://raw.githubusercontent.com/docker/cli/master/cli/compose/schema/data/config_schema_v3.8.json"
+      }
+    },
+    {
       "name": "Dolittle Artifacts",
       "description": "A JSON schema for a Dolittle bounded context's artifacts",
       "fileMatch": [".dolittle/artifacts.json"],
